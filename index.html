@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Danish | Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@300;400;600;700;800&family=DM+Sans:wght@300;400;500&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- 1. Video Intro -->
+    <div id="intro">
+        <div id="intro-stars"></div>
+        <div id="intro-grid"></div>
+        <div id="intro-orb1"></div>
+        <div id="intro-orb2"></div>
+
+        <div id="enter-screen">
+            <div class="es-tag">Portfolio</div>
+            <h1 class="es-name">Danish</h1>
+            <div class="es-role">AI & Automation Developer</div>
+            <button id="enter-btn" onclick="startVideo()">
+                <span class="eb-icon">▶</span>
+                <span class="eb-lbl">ENTER</span>
+            </button>
+        </div>
+
+        <video id="iv" src="Danish_video.mp4" playsinline preload="auto"></video>
+        <button id="skip-btn" onclick="skipIntro()">Skip</button>
+        <div id="vprog">
+            <div id="vpf"></div>
+        </div>
+    </div>
+
+    <!-- 2. Navigation -->
+    <nav id="nav">
+        <div class="nlogo">D://ANISH</div>
+        <div class="nlinks">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#services">Services</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <a href="#contact" class="ncta">Hire Me</a>
+    </nav>
+
+    <!-- 3. Hero Section -->
+    <section id="hero">
+        <div class="horb1"></div>
+        <div class="horb2"></div>
+
+        <!-- Left Text -->
+        <div class="htxt">
+            <div class="htag">Available for Freelance Work</div>
+            <h1 class="hname">
+                <span class="hname-plain">Hi, I'm</span>
+                <span class="hname-big">Danish</span>
+            </h1>
+            <div class="hrole">
+                <span class="hl">AI & Automation Developer</span> · LLM Integrations · Bot Architect
+            </div>
+            <p class="hdesc">
+                I build intelligent systems — AI assistants, automation pipelines, and smart apps. From Telegram bots to
+                full-stack tools, I turn ideas into working products.
+            </p>
+            <div class="hbtns">
+                <a href="#projects" class="bp">View My Projects</a>
+                <a href="#contact" class="bo">Let's Talk</a>
+            </div>
+            <div class="hsoc">
+                <a href="#">GH</a>
+                <a href="#">LI</a>
+                <a href="#">TG</a>
+            </div>
+        </div>
+
+        <!-- Right Visual -->
+        <div class="hvisual">
+            <div class="atom">
+                <div class="vcircle">
+                    <video id="nucleus-vid" src="Danish_video.mp4" playsinline></video>
+                </div>
+                <div class="orbit orbit1"></div>
+                <div class="orbit orbit2"></div>
+                <div class="orbit orbit3"></div>
+                <div class="glow-ring"></div>
+                <div class="glow-ring2"></div>
+                <div class="fp fp1"></div>
+                <div class="fp fp2"></div>
+                <div class="fp fp3"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. About Section -->
+    <section id="about" class="sec-pad rv">
+        <div class="about-grid">
+            <div class="abt-txt">
+                <div class="sec-lbl">Who Am I</div>
+                <h2 class="sec-title">Building the <span class="ac">Future with AI</span></h2>
+                <p class="sec-desc">
+                    I'm a developer obsessed with creating systems that think, automate, and scale. With a strong
+                    background in AI APIs (Claude, OpenAI) and automation tools (n8n), I build the connective tissue
+                    between ideas and reality.
+                </p>
+                <div class="hl-box">❯_ Currently building: Personal AI Life Assistant + Habit Tracking App</div>
+                <p class="sec-desc">
+                    Whether it's a smart Telegram bot, a complete React Native mobile application, or a sprawling n8n
+                    automation network, I write code that solves real problems efficiently.
+                </p>
+                <div class="stats">
+                    <div>
+                        <div class="stat-num">5+</div>
+                        <div class="stat-lbl">Live Projects</div>
+                    </div>
+                    <div>
+                        <div class="stat-num">3+</div>
+                        <div class="stat-lbl">AI Tools</div>
+                    </div>
+                    <div>
+                        <div class="stat-num">∞</div>
+                        <div class="stat-lbl">Ideas</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="acw">
+                <div class="back1"></div>
+                <div class="back2"></div>
+                <div class="acw-card">
+                    <div class="avi">🧑‍💻</div>
+                    <div class="acw-name">Danish</div>
+                    <div class="acw-role">AI & AUTOMATION DEVELOPER</div>
+                    <div class="chips">
+                        <div class="chip p">AI/ML</div>
+                        <div class="chip m">Automation</div>
+                        <div class="chip c">LLMs</div>
+                        <div class="chip m">Python</div>
+                        <div class="chip p">Telegram Bots</div>
+                        <div class="chip c">n8n</div>
+                        <div class="chip m">Claude API</div>
+                        <div class="chip p">React Native</div>
+                        <div class="chip c">C/C++</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Skills Section -->
+    <section id="skills" class="sec-pad rv">
+        <div class="sec-head-cen">
+            <div class="sec-lbl">Technical Arsenal</div>
+            <h2 class="sec-title">My Skills</h2>
+        </div>
+
+        <div class="skills-grid">
+            <div class="sk-c">
+                <div class="sk-ic">🐍</div>
+                <div class="sk-nm">Python</div>
+                <div class="sk-ds">85% Proficiency</div>
+                <div class="sk-pb">
+                    <div class="sk-pf" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="sk-c">
+                <div class="sk-ic">🤖</div>
+                <div class="sk-nm">AI / LLMs</div>
+                <div class="sk-ds">80% Proficiency</div>
+                <div class="sk-pb">
+                    <div class="sk-pf" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="sk-c">
+                <div class="sk-ic">⚡</div>
+                <div class="sk-nm">n8n Automation</div>
+                <div class="sk-ds">75% Proficiency</div>
+                <div class="sk-pb">
+                    <div class="sk-pf" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="sk-c">
+                <div class="sk-ic">📱</div>
+                <div class="sk-nm">React Native</div>
+                <div class="sk-ds">70% Proficiency</div>
+                <div class="sk-pb">
+                    <div class="sk-pf" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="sk-c">
+                <div class="sk-ic">💬</div>
+                <div class="sk-nm">Telegram Bots</div>
+                <div class="sk-ds">85% Proficiency</div>
+                <div class="sk-pb">
+                    <div class="sk-pf" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="sk-c">
+                <div class="sk-ic">🌐</div>
+                <div class="sk-nm">Web Dev</div>
+                <div class="sk-ds">78% Proficiency</div>
+                <div class="sk-pb">
+                    <div class="sk-pf" style="width: 78%;"></div>
+                </div>
+            </div>
+            <div class="sk-c">
+                <div class="sk-ic">🎬</div>
+                <div class="sk-nm">AI Video (Seedance)</div>
+                <div class="sk-ds">72% Proficiency</div>
+                <div class="sk-pb">
+                    <div class="sk-pf" style="width: 72%;"></div>
+                </div>
+            </div>
+            <div class="sk-c">
+                <div class="sk-ic">🔬</div>
+                <div class="sk-nm">Google Labs</div>
+                <div class="sk-ds">68% Proficiency</div>
+                <div class="sk-pb">
+                    <div class="sk-pf" style="width: 68%;"></div>
+                </div>
+            </div>
+            <div class="sk-c">
+                <div class="sk-ic">⚙️</div>
+                <div class="sk-nm">C / C++</div>
+                <div class="sk-ds">65% Proficiency</div>
+                <div class="sk-pb">
+                    <div class="sk-pf" style="width: 65%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Services Section -->
+    <section id="services" class="sec-pad rv">
+        <div class="sec-lbl">What I Do</div>
+        <h2 class="sec-title">Services</h2>
+
+        <div class="srv-grid">
+            <div class="srv-c feat">
+                <div class="srv-num">01</div>
+                <div class="srv-ic">🤖</div>
+                <div class="srv-nm">AI Agent Development</div>
+                <div class="srv-ds">Building intelligent, context-aware agents using modern LLM APIs to perform complex
+                    automated reasoning and tasks.</div>
+                <div class="srv-tags"><span class="chip c">Claude API</span><span class="chip p">LangChain</span><span
+                        class="chip m">RAG</span></div>
+            </div>
+            <div class="srv-c">
+                <div class="srv-num">02</div>
+                <div class="srv-ic">⚡</div>
+                <div class="srv-nm">Automation Pipelines</div>
+                <div class="srv-ds">Streamlining business logic by connecting disparate tools into cohesive,
+                    self-running workflows.</div>
+                <div class="srv-tags"><span class="chip c">n8n</span><span class="chip m">Webhooks</span><span
+                        class="chip p">Google Sheets</span></div>
+            </div>
+            <div class="srv-c">
+                <div class="srv-num">03</div>
+                <div class="srv-ic">💬</div>
+                <div class="srv-nm">Telegram Bot Dev</div>
+                <div class="srv-ds">Designing and deploying highly capable bots for community management, utilities, or
+                    personal assistance.</div>
+                <div class="srv-tags"><span class="chip c">Telegram API</span><span class="chip p">Python</span><span
+                        class="chip m">AI-powered</span></div>
+            </div>
+            <div class="srv-c">
+                <div class="srv-num">04</div>
+                <div class="srv-ic">📱</div>
+                <div class="srv-nm">Mobile App Dev</div>
+                <div class="srv-ds">Developing fast, cross-platform mobile applications with beautiful UI and robust
+                    offline capabilities.</div>
+                <div class="srv-tags"><span class="chip p">React Native</span><span class="chip c">SQLite</span><span
+                        class="chip m">Firebase</span></div>
+            </div>
+            <div class="srv-c">
+                <div class="srv-num">05</div>
+                <div class="srv-ic">🌐</div>
+                <div class="srv-nm">Portfolio & Web Dev</div>
+                <div class="srv-ds">Crafting visually stunning, high-performance web experiences that leave a lasting
+                    impression.</div>
+                <div class="srv-tags"><span class="chip c">HTML/CSS/JS</span><span class="chip p">Vercel</span></div>
+            </div>
+            <div class="srv-c">
+                <div class="srv-num">06</div>
+                <div class="srv-ic">🎬</div>
+                <div class="srv-nm">AI Video Prompting</div>
+                <div class="srv-ds">Generating hyper-realistic and stylized video content using cutting-edge AI
+                    diffusion models.</div>
+                <div class="srv-tags"><span class="chip p">Kling AI</span><span class="chip m">Runway</span><span
+                        class="chip c">Seedance</span></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 7. Projects Section -->
+    <section id="projects" class="sec-pad rv">
+        <div class="sec-lbl">Recent Work</div>
+        <h2 class="sec-title">Featured <span class="ac">Projects</span></h2>
+
+        <div class="prj-grid">
+            <div class="prj-c">
+                <div class="prj-tb p1">
+                    <div class="prj-emoji">🤖</div>
+                    <div class="prj-bdg">AI Bot</div>
+                </div>
+                <div class="prj-bd">
+                    <div class="prj-nm">AI Personal Assistant Bot</div>
+                    <div class="prj-ds">A personalized Telegram assistant integrating Claude for contextual chats and
+                        n8n for real-world automated actions.</div>
+                    <div class="prj-tech"><span>n8n</span><span>Telegram</span><span>Claude API</span></div>
+                    <a href="#" class="prj-lk">View Project →</a>
+                </div>
+            </div>
+            <div class="prj-c">
+                <div class="prj-tb p2">
+                    <div class="prj-emoji">📊</div>
+                    <div class="prj-bdg">Mobile App</div>
+                </div>
+                <div class="prj-bd">
+                    <div class="prj-nm">Smart Habit Tracking App</div>
+                    <div class="prj-ds">A cross-platform mobile application that helps users build consistent habits
+                        using gamification and local databases.</div>
+                    <div class="prj-tech"><span>React Native</span><span>SQLite</span><span>Node.js</span></div>
+                    <a href="#" class="prj-lk">View Project →</a>
+                </div>
+            </div>
+            <div class="prj-c">
+                <div class="prj-tb p3">
+                    <div class="prj-emoji">⚡</div>
+                    <div class="prj-bdg">Automation</div>
+                </div>
+                <div class="prj-bd">
+                    <div class="prj-nm">n8n Automation Workflows</div>
+                    <div class="prj-ds">Complex multi-node business logic pipelines to sync data seamlessly between
+                        CRMs, databases, and chat platforms.</div>
+                    <div class="prj-tech"><span>n8n</span><span>Webhooks</span><span>ngrok</span></div>
+                    <a href="#" class="prj-lk">View Project →</a>
+                </div>
+            </div>
+            <div class="prj-c">
+                <div class="prj-tb p4">
+                    <div class="prj-emoji">🌐</div>
+                    <div class="prj-bdg">Web Dev</div>
+                </div>
+                <div class="prj-bd">
+                    <div class="prj-nm">Developer Portfolio Website</div>
+                    <div class="prj-ds">A highly interactive, single-file HTML/CSS/JS experience utilizing advanced CSS
+                        animations and custom properties.</div>
+                    <div class="prj-tech"><span>HTML/CSS/JS</span><span>Canvas</span><span>Vercel</span></div>
+                    <a href="#" class="prj-lk">View Project →</a>
+                </div>
+            </div>
+            <div class="prj-c">
+                <div class="prj-tb p5">
+                    <div class="prj-emoji">⚙️</div>
+                    <div class="prj-bdg">C++ OOP</div>
+                </div>
+                <div class="prj-bd">
+                    <div class="prj-nm">C++ OOP Projects</div>
+                    <div class="prj-ds">A collection of performance-critical algorithmic solutions and strictly typed
+                        object-oriented architecture designs.</div>
+                    <div class="prj-tech"><span>C++</span><span>OOP</span><span>DSA</span></div>
+                    <a href="#" class="prj-lk">View Project →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 8. Testimonials Section -->
+    <section id="testimonials" class="sec-pad rv">
+        <div class="sec-head-cen">
+            <div class="sec-lbl">Client Feedback</div>
+            <h2 class="sec-title">Testimonials</h2>
+        </div>
+        <div class="tes-grid">
+            <div class="tes-c">
+                <div class="tes-q">"</div>
+                <p class="tes-txt">Danish built a custom Telegram bot for my startup that saved us 15 hours a week in
+                    manual admin tasks. The AI integration was flawless.</p>
+                <div class="tes-st">★★★★★</div>
+                <div class="tes-au">
+                    <div class="tes-av">👤</div>
+                    <div>
+                        <div class="tes-anm">Aryan M.</div>
+                        <div class="tes-arl">Startup Founder</div>
+                    </div>
+                </div>
+            </div>
+            <div class="tes-c">
+                <div class="tes-q">"</div>
+                <p class="tes-txt">The n8n pipelines he developed connected our entire tech stack seamlessly. Excellent
+                    communication and delivered exactly what we needed.</p>
+                <div class="tes-st">★★★★★</div>
+                <div class="tes-au">
+                    <div class="tes-av">👤</div>
+                    <div>
+                        <div class="tes-anm">Priya S.</div>
+                        <div class="tes-arl">Operations Manager</div>
+                    </div>
+                </div>
+            </div>
+            <div class="tes-c">
+                <div class="tes-q">"</div>
+                <p class="tes-txt">As a fellow developer, looking at the code quality of his portfolio website was a
+                    joy. Clean, highly structured, and incredibly performant.</p>
+                <div class="tes-st">★★★★★</div>
+                <div class="tes-au">
+                    <div class="tes-av">👤</div>
+                    <div>
+                        <div class="tes-anm">Zaid K.</div>
+                        <div class="tes-arl">CS Student</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Contact Section -->
+    <section id="contact" class="sec-pad rv">
+        <div class="con-grid">
+            <div class="con-l">
+                <div class="sec-lbl">Get In Touch</div>
+                <h2 class="con-ttl">Let's Build <span class="ac">Something</span> Together</h2>
+                <p class="con-ds">Whether you have an idea for a massive project, need an intelligent automation
+                    solution, or just want to chat about AI — my inbox is open.</p>
+                <div class="con-items">
+                    <div class="ci">📬 danish@example.com</div>
+                    <div class="ci">✈️ @danish_dev (Telegram)</div>
+                    <div class="ci">📍 Delhi, India · Remote Worldwide</div>
+                    <div class="ci"><span class="o">●</span> Open to new projects</div>
+                </div>
+            </div>
+            <div class="con-r">
+                <form class="con-form" onsubmit="event.preventDefault(); alert('Message sent successfully!');">
+                    <div class="fg">
+                        <label>Name</label>
+                        <input type="text" placeholder="John Doe" required />
+                    </div>
+                    <div class="fg">
+                        <label>Email</label>
+                        <input type="email" placeholder="john@example.com" required />
+                    </div>
+                    <div class="fg">
+                        <label>What do you need?</label>
+                        <input type="text" placeholder="E.g. AI Bot, Automation pipeline" required />
+                    </div>
+                    <div class="fg">
+                        <label>Message</label>
+                        <textarea placeholder="Tell me about your project..." required></textarea>
+                    </div>
+                    <button type="submit" class="fsub">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Footer -->
+    <footer>
+        <div class="nlogo">D://ANISH</div>
+        <div class="f-cr">© 2026 Danish. All rights reserved.</div>
+        <div class="f-lk">
+            <a href="#hero">Top</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </footer>
+
+    <!-- Custom Cursor -->
+    <div id="cursor-dot"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- Scroll Indicator Dots -->
+    <div class="scroll-dots">
+        <div class="dot on"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
